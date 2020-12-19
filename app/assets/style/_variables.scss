@@ -1,0 +1,171 @@
+$maincolor: #916000;
+$secondcolor: #AC8A46;
+$deepcolor: #000000;
+$midcolor: #8D8D8D;
+$lightcolor: #E0E0E0;
+$no-color: white;
+
+
+
+// color
+
+
+.maincolor{ color: #916000;   }
+.secondcolor{ color: #AC8A46;   }
+.deepcolor{ color: #000000;   }
+.midcolor{ color: #8D8D8D;   }
+.lightcolor{ color: #E0E0E0;   }
+.no-color{ color: white;}
+
+   
+
+// 字體
+.title-h1{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.title-h2{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.title-h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.title-h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.p1{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.p2{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.p3{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.button-newtext{
+    font-size: 28px;
+    font-weight: normal;
+}
+
+
+.outline-black{
+    border:1px solid $deepcolor;
+    padding: 10px 50px;
+    color: $deepcolor;
+}
+
+.outline-black:hover{
+    background-color: $lightcolor;
+}
+
+.bg-color{
+    background-color: $lightcolor;
+}
+
+.outline-maincolor{
+    color: $maincolor;
+    border:1px solid $maincolor;
+    transition: all 1s;
+}
+
+.outline-maincolor:hover{
+    color: white;
+    background-color: $maincolor;
+}
+
+.bg-maincolor{
+    background-color: $maincolor;
+    color: $no-color;
+
+}
+
+.text-link{
+    color: $maincolor;
+}
+
+.text-link:hover{
+    color: $secondcolor;
+}
+
+
+// padding
+.pd-0{
+    padding: 0px;
+}
+
+.pd-10{
+    padding: 10px 0;
+}
+
+.pd-1{
+    padding: 20px 0;
+}
+
+.pd-2{
+    padding: 40px 0;
+}
+
+//animation
+@keyframes yaya {
+    0% {
+        opacity: 1;
+        transform: translate3d(0,-60%,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0)
+    }
+}
+
+
+// .yaya:hover{
+//   animation-duration: 0.5s;
+//   transition-timing-function: linear;
+//   animation-name: yaya;
+// }
+
+
+//hover
+
+.menubar-icon-btn{
+    color: $midcolor;
+}
+
+.menubar-icon-btn:hover{
+    color: $secondcolor;
+}
+
+.a-link{
+    color: white;
+}
+
+.a-link:hover{
+    color: $secondcolor;
+    text-decoration: none;
+}
+
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+

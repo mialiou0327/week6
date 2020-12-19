@@ -1,0 +1,61 @@
+.container{
+    // border:1px solid black;
+    padding: 0;
+   
+
+}
+
+.header{
+    padding: 20px 0;
+}
+
+// .menubar-list{
+//     border:1px solid black;
+
+// }
+
+.menubar-link{
+    color: $maincolor;
+}
+
+.menubar-link:hover{
+    color: $secondcolor;
+}
+
+.footer{
+    background-color: $maincolor;
+}
+
+
+.footer-menu{
+    padding: 20px 0;
+}
+
+.nav-link{
+    border:1px solid black;
+}
+
+
+
+//斷點
+@media(min-width:768px){
+    .btn-group{
+        display: none;
+    }
+
+    .caard-section1-pic1{
+        display: none;
+    }
+
+}
+
+@media(max-width:768px){
+    .menubar-list{
+        display: none;
+    }
+
+    .caard-section1-pic2{
+        display: none;
+    }
+
+}

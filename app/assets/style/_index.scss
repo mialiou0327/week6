@@ -1,0 +1,44 @@
+
+.banner{
+    margin: 0 auto;
+    width: 100%;
+    height: 870px;
+    background-image: url(../images/index/index1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+      
+}
+
+
+
+
+.outline-white{
+    border: 1px solid $no-color;
+    padding: 10px 50px;
+    color: $no-color;
+}
+
+.outline-white:hover{
+    background-color: $no-color;
+    color: black;
+}
+
+
+
+// .caard-section1-pic{
+//     width: 100%;
+//     height: 500px;
+//     background-image: url(../images/index/index2.jpg);
+//     background-size: cover;
+// }
+
+// 之後可以設定成共用
+
+
+.form-control{
+
+    height: 60px;
+}
+
